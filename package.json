@@ -1,0 +1,14 @@
+{
+  "name": "microservices-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shaked Amar",
+  "license": "MIT",
+  "scripts": {
+    "start": "pm2 startOrReload ecosystem.config.js",
+    "kill": "pm2 delete all"
+  },
+  "dependencies": {
+    "pm2": "^2.4.5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "proxy-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shaked Amar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-http-proxy": "^0.11.0"
+  }
+}
