@@ -1,0 +1,21 @@
+.Home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #9795CF;
+}
+
+.Home a {
+  color: #fff;
+}
+
+.Home h1 {
+  font-size: 2em;
+}
+
+.Home article {
+  background-color: #343456;
+  padding: 20px;
+  margin: 50px 0;
+  max-width: calc(768px * 2)
+}

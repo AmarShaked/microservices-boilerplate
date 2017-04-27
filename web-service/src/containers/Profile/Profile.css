@@ -1,0 +1,10 @@
+.Profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #9795CF;
+}
+
+.Profile h1 {
+  font-size: 2em;
+}

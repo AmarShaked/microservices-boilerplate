@@ -16,8 +16,8 @@ const Navigation = ({ isAuthenticated, onLogout, user }) => {
 
   return (
     <ul className="navigation">
-      <Link to="/signup" className="nav-link"><li>Signup</li></Link>
-      <Link to="/login" className="nav-link"><li>Login</li></Link>
+      <Link to="/signup"><Button icon="fa fa-user-plus">Signup</Button></Link>
+      <Link to="/login"><Button icon="fa fa-sign-in">Login</Button></Link>
     </ul>
   )
 }

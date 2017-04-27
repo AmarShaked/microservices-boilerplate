@@ -9,7 +9,7 @@ const Header = ({ isAuthenticated, onLogout, user }) => {
     <header className="Header">
       <div className="brand">
         <Link to="/">
-          ProjectName
+          Microservices Boilerplate
         </Link>
       </div>
       <Navigation 

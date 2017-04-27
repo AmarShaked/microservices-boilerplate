@@ -1,8 +1,11 @@
 .Header {
   display: flex;
-  padding: 30px;
+  padding: 10px;
   align-items: center;
   justify-content: space-between;
+  background-color: #43416C;
+  position: fixed;
+  width: 100%;
 }
 
 .brand a {

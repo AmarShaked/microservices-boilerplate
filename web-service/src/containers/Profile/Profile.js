@@ -5,7 +5,9 @@ class Profile extends React.Component {
   render() {
     return (
         <div className="Profile">
-          Profile
+          <h1>
+            User profile
+          </h1>
         </div>
       )
   }

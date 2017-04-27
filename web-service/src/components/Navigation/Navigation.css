@@ -1,3 +1,8 @@
+ul.navigation {
+  padding: 0;
+  margin: 0 50px 0 0;
+}
+
 .navigation {
   display: flex;
   list-style: none;
@@ -5,28 +10,30 @@
   align-items: center;
 }
 
-.navigation ul {
-  display: flex;
-  align-content: center;
-}
-
 .nav-link {
-  transition: border 300ms ease;
-  margin-right: 25px;
+  transition: color 300ms ease;
   padding: 10px;
-  border-bottom: 2px solid transparent;
+  color: #9795CF;
 }
 
 .nav-link:hover {
   cursor: pointer;
-  border-bottom: 2px solid #6D60C0;
-}
-
- .navigation a {
   color: #fff;
-  text-decoration: none;
 }
 
-.navigation a.active {
-  border-bottom: 2px solid #fff;
+.navigation a {
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.navigation a:last-child {
+  margin-right: 0;
+}
+
+.navigation a.active, .navigation a.active .btn {
+  color: #fff;
+}
+
+.navigation a.active .btn {
+  border-color: #fff;
 }

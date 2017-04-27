@@ -2,8 +2,8 @@
   background-color: transparent;
   border: none;
   outline: none;
-  color: #5B5B75;
-  border: 1px solid #5B5B75;
+  color: #9795CF;
+  border: 1px solid #9795CF;
   padding: 10px;
   cursor: pointer;
   transition: all 500ms ease;
@@ -15,8 +15,8 @@
 }
 
 .btn:disabled:hover {
-  color: #5B5B75;
-  border: 1px solid #5B5B75;
+  color: #9795CF;
+  border: 1px solid #9795CF;
   cursor: not-allowed;
 }
 
