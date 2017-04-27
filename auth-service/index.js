@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const middlewares = require('./middlewares');
 const router = require('./routes');
+const path = require('path');
 
 
 /**
@@ -18,7 +19,7 @@ require('./config/passport');
 /**
  * Load environment variables from .env file, where API keys and passwords are configured.
  */
-dotenv.load({ path: '.env' });
+dotenv.load({ path: path.resolve(__dirname, '.env') });
 
 /**
  * Register all the middlewares

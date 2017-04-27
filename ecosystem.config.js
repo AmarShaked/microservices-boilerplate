@@ -1,8 +1,8 @@
 module.exports = {
   apps : [
     {
-      name      : 'Proxy service',
-      script    : 'proxy-service'
+      name      : 'Api Gateway',
+      script    : 'api-gateway'
     },
     {
       name      : 'Auth service',
@@ -11,6 +11,7 @@ module.exports = {
     {
       name      : 'Web Service',
       cwd       : 'web-service',
+      detached  : false,
       script    : './node_modules/react-scripts/bin/react-scripts.js',
       args      : ["start"]
     }

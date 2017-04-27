@@ -4,6 +4,7 @@ const errorHandler = require('errorhandler');
 const passport = require('passport');
 const MongoStore = require('connect-mongo')(session);
 const expressValidator = require('express-validator');
+const cors = require('./cors');
 
 
 exports.registerMiddlewares = (app) => {
@@ -24,4 +25,5 @@ exports.registerMiddlewares = (app) => {
   }));
   app.use(passport.initialize());
   app.use(passport.session());
+  app.use(cors);
 }

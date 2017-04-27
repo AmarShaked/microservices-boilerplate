@@ -1,0 +1,10 @@
+.alert {
+  background-color: #a02b2b;
+  box-shadow: 0px 0px 10px 0px #a02b2b;
+  padding: 10px;
+}
+
+.alert p {
+  margin: 0;
+  font-size: 15px;
+}

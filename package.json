@@ -1,6 +1,6 @@
 {
   "name": "microservices-boilerplate",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "Shaked Amar",
   "license": "MIT",

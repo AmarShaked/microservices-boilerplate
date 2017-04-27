@@ -1,0 +1,6 @@
+{
+  "name": "ProtectedRoute",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ProtectedRoute.js"
+}

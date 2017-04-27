@@ -1,5 +1,5 @@
 {
-  "name": "proxy-service",
+  "name": "api-gateway",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Shaked Amar",
